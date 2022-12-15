@@ -17,7 +17,7 @@ RABBIT_MQ_EXCHANGE_NAME = os.getenv("RABBIT_MQ_EXCHANGE_NAME")
 RABBIT_MQ_QUEUE_NAME = os.getenv("RABBIT_MQ_QUEUE_NAME")
 
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://13.38.41.16:8001/"
 
 rabbit_url = f'amqp://{RABBIT_MQ_USERNAME}:{RABBIT_MQ_PASSWORD}@{RABBIT_MQ_URL}//'
 # Kombu Message Consuming Worker
